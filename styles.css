@@ -33,7 +33,7 @@ html{
     justify-content: center;
     flex-direction: column;
     position: relative;
-    height: 90vh;
+    height: 85vh;
     
 }
 video {
@@ -43,18 +43,18 @@ video {
 #heroContainer h1{
     font-family: Helvetica,Arial,sans-serif;
     font-weight: 900;
-    font-size: 3.8rem;
-    line-height: 4rem;
+    font-size: 4rem;
+    line-height: 4.5rem;
     letter-spacing: 1px;
     padding: 1.2rem 2.5rem;
     color: white;
-    margin: 5rem 0;
+    margin: 5rem 0 2rem;
 }
 #heroContainer h2{
     font-family: Helvetica,Arial,sans-serif;
     font-weight: 400;
-    font-size: 1.5rem;
-    line-height: 2rem;
+    font-size: 2rem;
+    line-height: 2.2rem;
     letter-spacing: 1px;
     padding: 1.2rem 2.5rem;
     color: white;
@@ -85,16 +85,18 @@ video {
     height: 35vh;
 }
 .howTo p{
-    width: 50%;
+    width: 60%;
     align-self: center;
-    font-size: 2rem;
-    font-weight: 600;
+    font-size: 1.8rem;
+    font-weight: 500;
     color: #fff;
     text-align: start;
+    border-radius: 1rem;
+    padding: 2rem 1rem;
 }
 .howTo img{
     border-radius: 1rem;
-    box-shadow: grey 0 1rem 1rem 0;
+    width: 30%;
 }
 .reverse{
     flex-direction: row-reverse;

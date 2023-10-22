@@ -81,7 +81,7 @@ video {
     display: flex;
     justify-content: space-around;
     align-content: center;
-    margin: 1rem;
+    margin: 3rem 0;
     height: 35vh;
 }
 .howTo p{
@@ -105,11 +105,18 @@ video {
     justify-content: space-between;
     align-items: center;
     border-radius: 2rem;
-    box-shadow: grey 0.1rem 0.1rem 0.5rem 0.5rem ;
+    box-shadow: rgba(20,200,20,0.5) 0.1rem 0.1rem 0.3rem 0.3rem ;
     margin: 2rem 1rem;
     height: fit-content;
     padding:0 5% ;
     flex-direction: column;
+    padding-bottom: 2rem;
+}
+.testi:nth-child(3){
+    box-shadow: rgba(55, 191, 224, 0.5) 0.1rem 0.1rem 0.2rem 0.2rem ;
+}
+.testi:nth-child(2){
+    box-shadow: rgba(213, 48, 228, 0.5) 0.1rem 0.1rem 0.2rem 0.2rem ;
 }
 .person{
     display: flex;
@@ -123,10 +130,12 @@ video {
 .person img{
     border-radius: 50%;
     box-shadow: rgba(200,200,200,0.7) 0 0 0.6rem 0.6rem;
+    width: 40%;
 }
 .testi p{
     width: 100%;
     font-size: 2rem;
     border-radius: 1rem 1rem 1rem 0;
     font-family:'Brush Script MT';
+    text-align: center;
 }

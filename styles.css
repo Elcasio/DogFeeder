@@ -60,14 +60,7 @@ video {
     color: white;
 }
 
-#knowUs{
-    display: flex;
-    flex-direction: column;
-    font-family: Helvetica, sans-serif;
-    background-image: url(/images/knowusbglow.jpg);
-    background-size: cover;
-    
-}
+
 .divider{
     text-align: center;
     color:white;
@@ -75,10 +68,25 @@ video {
     font-size: 2rem;
     font-family: Helvetica, sans-serif;
     background-color: black;
-    flex-direction: row;
+    display:grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    background-color: black;
+    padding:2rem 0;
+}
+.logoContainer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 .logo{
     width: 4rem;
+}
+#knowUs{
+    display: flex;
+    flex-direction: column;
+    font-family: Helvetica, sans-serif;
+    background-color: black;
+    
 }
 .howTo{
     display: flex;
@@ -96,6 +104,8 @@ video {
     text-align: start;
     border-radius: 1rem;
     padding: 2rem 1rem;
+    line-height: 2rem;
+    letter-spacing: 0rem;
 }
 .howTo img{
     border-radius: 1rem;
@@ -113,7 +123,7 @@ video {
     /*box-shadow: rgba(20,200,20,0.5) 0.1rem 0.1rem 0.3rem 0.3rem ;*/
     margin: 2rem 1rem;
     height: fit-content;
-    padding:0 5% ;
+    padding:5%;
     flex-direction: column;
     padding-bottom: 2rem;
     font-family:Helvetica, sans-serif;
